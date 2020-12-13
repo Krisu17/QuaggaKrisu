@@ -2,8 +2,7 @@ import FridgesList from "../Pages/FridgesList/FridgesList";
 import ProductsList from "../Pages/ProductsList/ProductsList"
 import UserPage from "../Pages/UserPage/UserPage";
 import FuckingLoginPage from "../Pages/LoginPage/FuckingLoginPage";
-import Scanner from "../Pages/QuaggaJS/Scanner";
-import Appt from "../Pages/QuaggaJS/Appt";
+
 
 export const path_list = {
     DASHBOARD: {
@@ -61,10 +60,5 @@ export default [
         path: path_list.FRIDGE_LIST.route,
         exact: true,
         component: FridgesList
-    },
-    {
-      path: path_list.SETTINGS.route,
-      exact: true,
-      component: Appt
     }
 ];
